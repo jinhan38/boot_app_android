@@ -20,7 +20,6 @@ class BootApp : BroadcastReceiver() {
             val i = Intent(context, MainActivity::class.java)
             i.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
             context.startActivity(i)
-            Toast.makeText(context, "앱 실행 완료", Toast.LENGTH_SHORT).show()
         }
 
     }
